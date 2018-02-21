@@ -1,0 +1,19 @@
+Source : http://www.thewindowsclub.com/make-programs-run-on-startup-windows
+
+1. Place Program shortcut in Startup folder
+The simplest way would be to place a shortcut of the Program in the Windows Startup folder.
+
+Current Users Startup folder : 
+C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+All Users Windows startup folder : 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
+2. Add Programs to startup using freeware
+While the built-in MSCONFIG or System Configuration Utility allows you to disable or delete startup entries, it does not allow you to add startup programs. There are many free tools that let you manage startup programs.
+
+3.  Make Program run with Windows boot via Registry
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
